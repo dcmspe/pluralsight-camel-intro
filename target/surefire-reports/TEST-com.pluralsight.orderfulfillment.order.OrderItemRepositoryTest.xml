@@ -86,17 +86,6 @@
 	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findOrderItemOrderCatalogItemSuccess(OrderItemRepositoryTest.java:35)
 </failure>
   </testcase>
-  <testcase classname="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess_aroundBody4(OrderItemRepositoryTest.java:29)
-	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest$AjcClosure5.run(OrderItemRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
-	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess(OrderItemRepositoryTest.java:28)
-</failure>
-  </testcase>
   <testcase classname="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findByOrderIdSuccess" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findByOrderIdSuccess_aroundBody8(OrderItemRepositoryTest.java:46)
@@ -106,6 +95,17 @@
 	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
 	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
 	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findByOrderIdSuccess(OrderItemRepositoryTest.java:45)
+</failure>
+  </testcase>
+  <testcase classname="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess_aroundBody4(OrderItemRepositoryTest.java:29)
+	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest$AjcClosure5.run(OrderItemRepositoryTest.java:1)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
+	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess(OrderItemRepositoryTest.java:28)
 </failure>
   </testcase>
 </testsuite>

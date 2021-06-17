@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.445 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0.444 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.344 sec <<< FAILURE!
+com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0.343 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess_aroundBody4(CatalogItemRepositoryTest.java:30)
 	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest$AjcClosure5.run(CatalogItemRepositoryTest.java:1)

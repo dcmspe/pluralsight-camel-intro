@@ -64,6 +64,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="com.pluralsight.orderfulfillment.order.OrderRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus_aroundBody10(OrderRepositoryTest.java:60)
+	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest$AjcClosure11.run(OrderRepositoryTest.java:1)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
+	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus(OrderRepositoryTest.java:58)
+</failure>
+  </testcase>
   <testcase classname="com.pluralsight.orderfulfillment.order.OrderRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscSuccess" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscSuccess_aroundBody8(OrderRepositoryTest.java:51)
@@ -97,7 +108,7 @@
 	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_updateStatusSuccess(OrderRepositoryTest.java:67)
 </failure>
   </testcase>
-  <testcase classname="com.pluralsight.orderfulfillment.order.OrderRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findAllOrdersSuccess" time="0">
+  <testcase classname="com.pluralsight.orderfulfillment.order.OrderRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findAllOrdersSuccess" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findAllOrdersSuccess_aroundBody4(OrderRepositoryTest.java:30)
 	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest$AjcClosure5.run(OrderRepositoryTest.java:1)
@@ -106,17 +117,6 @@
 	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
 	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
 	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findAllOrdersSuccess(OrderRepositoryTest.java:29)
-</failure>
-  </testcase>
-  <testcase classname="com.pluralsight.orderfulfillment.order.OrderRepositoryTest" name="com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus_aroundBody10(OrderRepositoryTest.java:60)
-	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest$AjcClosure11.run(OrderRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
-	at com.pluralsight.orderfulfillment.order.OrderRepositoryTest.test_findOrdersByOrderStatusOrderByTimeOrderPlacedAscFailInvalidStatus(OrderRepositoryTest.java:58)
 </failure>
   </testcase>
 </testsuite>
