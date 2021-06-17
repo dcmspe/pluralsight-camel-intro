@@ -1,50 +1,51 @@
 package com.pluralsight.orderfulfillment.order;
 
-import static org.junit.Assert.*;
 
 import java.util.*;
 
 import javax.inject.*;
 
-import org.junit.*;
-
 import com.pluralsight.orderfulfillment.test.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class OrderItemRepositoryTest extends BaseJpaRepositoryTest {
 
    @Inject
    private OrderItemRepository orderItemRepository;
 
-   @Before
+   @BeforeEach
    public void setUp() throws Exception {
    }
 
-   @After
+   @AfterEach
    public void tearDown() throws Exception {
    }
 
    @Test
    public void test_findAllOrderItemsSuccess() throws Exception {
       List<OrderItemEntity> orderItems = orderItemRepository.findAll();
-      assertNotNull(orderItems);
-      assertFalse(orderItems.isEmpty());
+      Assertions.assertNotNull(orderItems);
+      Assertions.assertFalse(orderItems.isEmpty());
    }
 
    @Test
    public void test_findOrderItemOrderCatalogItemSuccess() throws Exception {
       List<OrderItemEntity> orderItems = orderItemRepository.findAll();
-      assertNotNull(orderItems);
-      assertFalse(orderItems.isEmpty());
+      Assertions.assertNotNull(orderItems);
+      Assertions.assertFalse(orderItems.isEmpty());
       OrderItemEntity orderItem = orderItems.get(0);
-      assertNotNull(orderItem.getOrder());
-      assertNotNull(orderItem.getCatalogItem());
+      Assertions.assertNotNull(orderItem.getOrder());
+      Assertions.assertNotNull(orderItem.getCatalogItem());
    }
 
    @Test
    public void test_findByOrderIdSuccess() throws Exception {
       List<OrderItemEntity> orderItems = orderItemRepository.findByOrderId(1L);
-      assertNotNull(orderItems);
-      assertFalse(orderItems.isEmpty());
+      Assertions.assertNotNull(orderItems);
+      Assertions.assertFalse(orderItems.isEmpty());
    }
 
    @Test
@@ -57,6 +58,6 @@ public class OrderItemRepositoryTest extends BaseJpaRepositoryTest {
       int updateCount = orderItemRepository.updateStatus(
             OrderStatus.PROCESSING.getCode(),
             new Date(System.currentTimeMillis()), orderIds);
-      assertTrue(updateCount == 8);
+      Assertions.assertTrue(updateCount == 8);
    }
 }

@@ -1,7 +1,5 @@
 package com.pluralsight.orderfulfillment.order;
 
-import org.apache.commons.lang3.*;
-
 /**
  * Key and value for order statuses.
  * 
@@ -15,7 +13,7 @@ public enum OrderStatus {
    private String code;
    private String description;
 
-   private OrderStatus(String code, String description) {
+   OrderStatus(String code, String description) {
       this.code = code;
       this.description = description;
    }
@@ -36,7 +34,7 @@ public enum OrderStatus {
 
    public static OrderStatus getOrderStatusByCode(String code) {
       OrderStatus orderStatus = null;
-      if (StringUtils.isNotBlank(code)) {
+      if (!code.isEmpty()) {
          for (OrderStatus status : OrderStatus.values()) {
             if (status.getCode().equals(code)) {
                orderStatus = status;

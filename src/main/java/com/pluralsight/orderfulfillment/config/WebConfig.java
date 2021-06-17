@@ -4,7 +4,8 @@ import org.springframework.context.annotation.*;
 import org.springframework.web.servlet.*;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.*;
-import org.springframework.web.servlet.view.tiles2.*;
+import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
+import org.springframework.web.servlet.view.tiles3.TilesView;
 
 /**
  * Web configuration
@@ -15,7 +16,7 @@ import org.springframework.web.servlet.view.tiles2.*;
 @Configuration
 @ComponentScan("com.pluralsight.orderfulfillment")
 @EnableWebMvc
-public class WebConfig extends WebMvcConfigurerAdapter {
+public class WebConfig implements WebMvcConfigurer  {
 
    @Bean
    public ViewResolver viewResolver() {

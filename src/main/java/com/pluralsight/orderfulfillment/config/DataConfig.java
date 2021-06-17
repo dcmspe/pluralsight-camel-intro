@@ -10,7 +10,7 @@ import org.apache.commons.dbcp.*;
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.*;
 import org.springframework.data.jpa.repository.config.*;
-import org.springframework.orm.hibernate4.*;
+import org.springframework.orm.hibernate5.HibernateExceptionTranslator;
 import org.springframework.orm.jpa.*;
 import org.springframework.orm.jpa.vendor.*;
 import org.springframework.transaction.*;

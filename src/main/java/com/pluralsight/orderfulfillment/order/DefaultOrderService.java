@@ -66,7 +66,7 @@ public class DefaultOrderService implements OrderService {
 
       try {
          populateOrderDetails(orders, orderRepository.findByStatus(
-               orderStatus.getCode(), new PageRequest(0, fetchSize)));
+               orderStatus.getCode(), PageRequest.of(0, fetchSize)));
       } catch (Exception e) {
          log.error("An error occurred while getting orders by order status: "
                + e.getMessage(), e);

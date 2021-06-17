@@ -1,0 +1,5 @@
+com\pluralsight\orderfulfillment\catalog\CatalogItemRepositoryTest.class
+com\pluralsight\orderfulfillment\order\OrderItemRepositoryTest.class
+com\pluralsight\orderfulfillment\order\OrderRepositoryTest.class
+com\pluralsight\orderfulfillment\test\BaseJpaRepositoryTest.class
+com\pluralsight\orderfulfillment\customer\CustomerRepositoryTest.class

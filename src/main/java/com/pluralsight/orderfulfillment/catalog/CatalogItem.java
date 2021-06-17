@@ -1,6 +1,7 @@
 package com.pluralsight.orderfulfillment.catalog;
 
-import java.io.*;
+import java.io.Serializable;
+import java.lang.StringBuilder;
 
 public class CatalogItem implements Serializable {
 
@@ -90,7 +91,7 @@ public class CatalogItem implements Serializable {
    @Override
    public String toString() {
       StringBuilder builder = new StringBuilder();
-      builder.append("CatalogItem [id=");
+      builder. append("CatalogItem [id=");
       builder.append(id);
       builder.append(", ");
       if (itemNumber != null) {
