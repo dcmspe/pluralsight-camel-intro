@@ -3,17 +3,16 @@ package com.pluralsight.orderfulfillment.order;
 
 import java.util.*;
 
-import javax.inject.*;
-
 import com.pluralsight.orderfulfillment.test.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class OrderItemRepositoryTest extends BaseJpaRepositoryTest {
 
-   @Inject
+   @Autowired
    private OrderItemRepository orderItemRepository;
 
    @BeforeEach

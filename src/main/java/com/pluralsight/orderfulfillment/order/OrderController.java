@@ -2,9 +2,9 @@ package com.pluralsight.orderfulfillment.order;
 
 import java.util.*;
 
-import javax.inject.*;
 
 import org.slf4j.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.*;
 import org.springframework.ui.*;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +21,7 @@ public class OrderController {
    private static final Logger log = LoggerFactory
          .getLogger(OrderController.class);
 
-   @Inject
+   @Autowired
    private OrderService orderService;
 
    /**

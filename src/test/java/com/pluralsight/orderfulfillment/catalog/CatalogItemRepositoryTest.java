@@ -3,18 +3,17 @@ package com.pluralsight.orderfulfillment.catalog;
 import java.util.List;
 import java.util.Set;
 
-import javax.inject.Inject;
-
 import com.pluralsight.orderfulfillment.order.OrderItemEntity;
 import com.pluralsight.orderfulfillment.test.BaseJpaRepositoryTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class CatalogItemRepositoryTest extends BaseJpaRepositoryTest {
 
-   @Inject
+   @Autowired
    private CatalogItemRepository catalogItemRepository;
    
    @BeforeEach

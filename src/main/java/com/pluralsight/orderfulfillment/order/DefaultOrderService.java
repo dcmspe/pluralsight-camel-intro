@@ -2,10 +2,10 @@ package com.pluralsight.orderfulfillment.order;
 
 import java.util.*;
 
-import javax.inject.*;
 import javax.transaction.*;
 
 import org.slf4j.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.*;
 
@@ -25,13 +25,13 @@ public class DefaultOrderService implements OrderService {
    private static final Logger log = LoggerFactory
          .getLogger(DefaultOrderService.class);
 
-   @Inject
+   @Autowired
    private OrderRepository orderRepository;
 
-   @Inject
+   @Autowired
    private OrderItemRepository orderItemRepository;
 
-   @Inject
+   @Autowired
    private FulfillmentProcessor fulfillmentProcessor;
 
    @Override

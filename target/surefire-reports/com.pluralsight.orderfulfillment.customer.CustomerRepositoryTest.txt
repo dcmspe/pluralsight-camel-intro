@@ -1,24 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess()  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess_aroundBody4(CustomerRepositoryTest.java:30)
-	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest$AjcClosure5.run(CustomerRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
 	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess(CustomerRepositoryTest.java:29)
 
 com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findCustomerOrdersSuccess()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findCustomerOrdersSuccess_aroundBody6(CustomerRepositoryTest.java:37)
-	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest$AjcClosure7.run(CustomerRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
 	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findCustomerOrdersSuccess(CustomerRepositoryTest.java:36)
 

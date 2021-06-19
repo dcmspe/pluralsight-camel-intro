@@ -1,24 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.344 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0.343 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess()  Time elapsed: 0.006 sec  <<< FAILURE!
 java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess_aroundBody4(CatalogItemRepositoryTest.java:30)
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest$AjcClosure5.run(CatalogItemRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess(CatalogItemRepositoryTest.java:29)
-
-com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess()  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess_aroundBody6(CatalogItemRepositoryTest.java:37)
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest$AjcClosure7.run(CatalogItemRepositoryTest.java:1)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96cproceed(AbstractTransactionAspect.aj:67)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation(AbstractTransactionAspect.aj:73)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(AbstractTransactionAspect.aj:71)
 	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess(CatalogItemRepositoryTest.java:36)
+
+com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess(CatalogItemRepositoryTest.java:29)
 

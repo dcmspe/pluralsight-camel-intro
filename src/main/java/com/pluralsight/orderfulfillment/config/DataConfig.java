@@ -2,11 +2,11 @@ package com.pluralsight.orderfulfillment.config;
 
 import java.util.*;
 
-import javax.inject.*;
 import javax.persistence.*;
 import javax.sql.*;
 
 import org.apache.commons.dbcp.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.*;
 import org.springframework.data.jpa.repository.config.*;
@@ -27,7 +27,7 @@ import org.springframework.transaction.annotation.*;
 @EnableTransactionManagement
 public class DataConfig {
 
-   @Inject
+   @Autowired
    private Environment environment;
 
    @Bean

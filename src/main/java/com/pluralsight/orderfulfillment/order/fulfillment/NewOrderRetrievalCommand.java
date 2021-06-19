@@ -2,9 +2,8 @@ package com.pluralsight.orderfulfillment.order.fulfillment;
 
 import java.util.*;
 
-import javax.inject.*;
-
 import org.slf4j.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.*;
 import org.springframework.stereotype.*;
 
@@ -24,10 +23,10 @@ public class NewOrderRetrievalCommand implements FulfillmentCommand {
    private static final Logger log = LoggerFactory
          .getLogger(NewOrderRetrievalCommand.class);
 
-   @Inject
+   @Autowired
    private Environment environment;
 
-   @Inject
+   @Autowired
    private OrderService orderService;
 
    /*

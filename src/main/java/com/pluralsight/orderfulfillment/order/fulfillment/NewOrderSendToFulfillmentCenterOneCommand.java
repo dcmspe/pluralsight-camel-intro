@@ -4,12 +4,10 @@ import java.io.*;
 import java.text.*;
 import java.util.*;
 
-import javax.inject.*;
-
+import com.opencsv.CSVWriter;
 import org.slf4j.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.*;
-
-import au.com.bytecode.opencsv.*;
 
 import com.pluralsight.orderfulfillment.order.*;
 
@@ -27,7 +25,7 @@ public class NewOrderSendToFulfillmentCenterOneCommand implements
    private static final Logger log = LoggerFactory
          .getLogger(NewOrderSendToFulfillmentCenterOneCommand.class);
 
-   @Inject
+   @Autowired
    private OrderService orderService;
 
    @Override
