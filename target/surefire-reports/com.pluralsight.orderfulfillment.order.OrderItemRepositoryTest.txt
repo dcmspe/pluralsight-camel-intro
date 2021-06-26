@@ -2,13 +2,13 @@
 Test set: com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest
 -------------------------------------------------------------------------------
 Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess()  Time elapsed: 0 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess(OrderItemRepositoryTest.java:28)
-
 com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findOrderItemOrderCatalogItemSuccess()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findOrderItemOrderCatalogItemSuccess(OrderItemRepositoryTest.java:35)
+
+com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findAllOrderItemsSuccess(OrderItemRepositoryTest.java:28)
 
 com.pluralsight.orderfulfillment.order.OrderItemRepositoryTest.test_findByOrderIdSuccess()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException

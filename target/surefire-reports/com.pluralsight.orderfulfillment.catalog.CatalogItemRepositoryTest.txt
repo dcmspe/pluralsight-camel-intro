@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess()  Time elapsed: 0.006 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess(CatalogItemRepositoryTest.java:36)
-
-com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess()  Time elapsed: 0.005 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testFindAllSuccess(CatalogItemRepositoryTest.java:29)
+
+com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.catalog.CatalogItemRepositoryTest.testOrderOrderItemsSuccess(CatalogItemRepositoryTest.java:36)
 

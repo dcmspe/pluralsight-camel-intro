@@ -2,11 +2,11 @@
 Test set: com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest
 -------------------------------------------------------------------------------
 Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess()  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess(CustomerRepositoryTest.java:29)
-
 com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findCustomerOrdersSuccess()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException
 	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findCustomerOrdersSuccess(CustomerRepositoryTest.java:36)
+
+com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.pluralsight.orderfulfillment.customer.CustomerRepositoryTest.test_findAllCustomersSuccess(CustomerRepositoryTest.java:29)
 

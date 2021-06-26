@@ -24,7 +24,26 @@
 
     	<!-- SPRING FRAMEWORK -->
 
-        <!-- Spring framework core dependency minus commons logging in favor of SLF4J -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>5.3.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>5.3.8</version>
+		</dependency>
+
+
+		<!-- Spring framework core dependency minus commons logging in favor of SLF4J -->
         <dependency>
         	<groupId>org.springframework</groupId>
         	<artifactId>spring-core</artifactId>
@@ -166,7 +185,6 @@
 			<version>42.2.22</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
@@ -245,6 +263,23 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Camel Spring Libraries -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring</artifactId>
+			<version>3.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring-javaconfig</artifactId>
+			<version>3.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-test-spring</artifactId>
+			<version>3.10.0</version>
+			<scope>test</scope>
+		</dependency>
     </dependencies>
 
     <build>
@@ -269,8 +304,9 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
+				<groupId>com.offbytwo.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.1.1.MDEP568</version>
 				<executions>
 					<execution>
 						<id>install</id>
@@ -289,7 +325,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.9</version>
+				<version>2.10</version>
 				<configuration>
 					<useProjectReferences>false</useProjectReferences>
 					<downloadSources>true</downloadSources>
@@ -357,7 +393,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
-					<version>2.8.1</version>
+					<version>2.9</version>
 					<configuration>
 						<excludes>
 							<exclude>org.apache.commons:commons-collections4</exclude>

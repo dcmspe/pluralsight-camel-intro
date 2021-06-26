@@ -35,18 +35,18 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.8" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.8" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.8" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.8" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.8" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
@@ -118,5 +118,59 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.11.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.11.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-engine:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-api:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base-engine:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-reifier:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-model:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-processor:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-util:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-management-api:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-javaconfig:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-support:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-xml:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxb:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxp:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-io-util:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-xml:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring-main:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-main:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test-spring:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:3.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-languages:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-bean:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-browse:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-controlbus:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-dataformat:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-dataset:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-direct:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-directvm:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-file:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-cluster:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-language:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-log:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-mock:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-ref:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-rest:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-tooling-model:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-util-json:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-saga:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-scheduler:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-seda:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-stub:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-timer:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-validator:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-vm:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-xpath:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-xslt:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.19.0" level="project" />
   </component>
 </module>
